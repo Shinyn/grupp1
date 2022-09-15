@@ -10,11 +10,12 @@ console.log("hello");
 //Hanna is here
 console.log("Hello to you too!");
 console.log("Hejsan hejsan!");
+console.log("Välkommen till vår kokbok!")
 
 let kokbok = true;
 while (kokbok === true) {
   switch (
-    console.log("Välkommen till vår kokbok!"),
+    
     prompt(
       "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: "
     )
