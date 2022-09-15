@@ -14,6 +14,7 @@ console.log("Hejsan hejsan!");
 let kokbok = true;
 while (kokbok === true) {
   switch (
+    console.log("Välkommen till vår kokbok!"),
     prompt(
       "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: "
     )
