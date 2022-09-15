@@ -13,23 +13,28 @@ console.log("Hejsan hejsan!");
 let kokbok = true;
 while ((kokbok === true)) {
   switch (prompt("Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: ")) {
-    case "recept 1":
+    case "1":
       console.log("Hannas recept:Du har valt recept 1");
       break;
 
-    case "Mattias recept 2":
+    case "2":
+      console.log("Mattias recept:Du har valt recept 2");
       break;
 
-    case "Robins recept 3":
+    case "3":
+      console.log("Robin recept:Du har valt recept 2");
       break;
 
-    case "Dennis recept 4":
+    case "4":
+      console.log("Dennis recept:Du har valt recept 2");
       break;
 
-    case "Eriks recept 5":
+    case "5":
+      console.log("Eriks recept:Du har valt recept 2");
       break;
 
-    case "Linus recept 6":
+    case "6":
+      console.log("Linus recept:Du har valt recept 2");
       break;
 
     case "exit":
