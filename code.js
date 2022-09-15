@@ -12,7 +12,7 @@ console.log("Hejsan hejsan!");
 
 let kokbok = true;
 while ((kokbok === true)) {
-  switch (prompt("Välj ett recept:")) {
+  switch (prompt("Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: ")) {
     case "recept 1":
       console.log("Hannas recept:Du har valt recept 1");
       break;
