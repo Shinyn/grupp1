@@ -29,6 +29,9 @@ switch (prompt("Välj ett recept:"))
         case "Linus recept 6":
         break;
 
+        case "exit":
+        kokbok = false;
+        break;
     default:
 break;
         
