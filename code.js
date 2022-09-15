@@ -32,6 +32,7 @@ switch (prompt("Välj ett recept:"))
         case "exit":
         kokbok = false;
         break;
+        
     default:
 break;
         
