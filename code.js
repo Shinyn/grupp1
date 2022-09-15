@@ -6,6 +6,7 @@ console.log("Hello to you too!");
 
 let kokbok = true
 while(kokbok = true)
+{
 switch prompt("Välj ett recept:");
 {
     case "recept 1":
