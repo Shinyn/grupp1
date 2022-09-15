@@ -1,5 +1,5 @@
 "use strict";
-
+const prompt = require('prompt-sync')();
 console.log("hello");
 //Hanna is here
 console.log("Hello to you too!");
