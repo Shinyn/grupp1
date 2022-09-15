@@ -13,15 +13,22 @@ switch{
         break;
 
         case "recept 2":
-            break;
-            case "recept 3":
-                break;
-                case "recept 4":
-                    break;
-                    case "recept 5":
-                        break;
-                        case "recept 6":
-                            break;
+        break;
+
+        case "recept 3":
+        break;
+
+        case "recept 4":
+        break;
+
+        case "recept 5":
+        break;
+        
+        case "recept 6":
+        break;
+
+    default:
+break;
         
 }
 }
