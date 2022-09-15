@@ -11,7 +11,7 @@ console.log("Hello to you too!");
 console.log("Hejsan hejsan!");
 
 let kokbok = true;
-while ((kokbok = true)) {
+while ((kokbok === true)) {
   switch (prompt("Välj ett recept:")) {
     case "recept 1":
       console.log("Hannas recept:Du har valt recept 1");
@@ -32,11 +32,13 @@ while ((kokbok = true)) {
     case "Linus recept 6":
       break;
 
-        case "exit":
-        kokbok = false;
-        break;
+    case "exit":
+      console.log("Hejdå!");
+      kokbok = false; 
+      break;
         
     default:
+      
       break;
   }
 }
