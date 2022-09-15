@@ -20,6 +20,20 @@ while (kokbok === true) {
   ) {
     case "1":
       console.log("Hannas recept:Du har valt recept 1");
+      const pancakes = function(factor) {
+        const ingredient = function(amount, unit, name) {
+          let ingredientAmount = amount * factor;
+          console.log(`${ingredientAmount} ${unit} ${name}`);
+        };
+        ingredient(1.5, "dl", "vetemjöl");
+        ingredient(0.25, "tsk", "salt");
+        ingredient(3, "dl", "mjölk");
+        ingredient(1.5, "knäckta", "ägg");
+        ingredient(1.25, "msk", "matfett");
+        console.log("Blanda alla ingredienser och stek på medelvärme");
+      };
+      let amount = prompt("Hur många portioner vill du göra? ");
+      pancakes(amount);
       break;
 
     case "2":
