@@ -7,7 +7,7 @@ console.log("Hello to you too!");
 let kokbok = true
 while(kokbok = true)
 {
-switch prompt("Välj ett recept:");
+switch (prompt("Välj ett recept:"));
 {
     case "recept 1":
         console.log("Du har valt recept 1");
