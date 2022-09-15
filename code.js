@@ -1,6 +1,7 @@
 ("use strict");
 
 console.log("hello");
+console.log("testing");
 
 //Dennis
 ("use strict");
@@ -11,8 +12,12 @@ console.log("Hello to you too!");
 console.log("Hejsan hejsan!");
 
 let kokbok = true;
-while ((kokbok === true)) {
-  switch (prompt("Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: ")) {
+while (kokbok === true) {
+  switch (
+    prompt(
+      "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: "
+    )
+  ) {
     case "1":
       console.log("Hannas recept:Du har valt recept 1");
       break;
@@ -39,11 +44,10 @@ while ((kokbok === true)) {
 
     case "exit":
       console.log("Hejdå!");
-      kokbok = false; 
+      kokbok = false;
       break;
-        
+
     default:
-      
       break;
   }
 }
