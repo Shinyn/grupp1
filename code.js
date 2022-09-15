@@ -1,32 +1,55 @@
 const { dennisRecept } = require("./dennisRecept.js");
-console.log(dennisRecept);
 const prompt = require("prompt-sync")();
 ("use strict");
 
+console.log("Välkommen till vår kokbok!");
 let kokbok = true;
 while (kokbok === true) {
-  switch (prompt("Välj ett recept:")) {
-    case "recept 1":
-      console.log("Hannas recept:Du har valt recept 1");
+  switch (
+    prompt(
+      "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: "
+    )
+  ) {
+    case "1":
+      console.log("Hannas recept: Pannkaka");
+      const pancakes = function (factor) {
+        const ingredient = function (amount, unit, name) {
+          let ingredientAmount = amount * factor;
+          console.log(`${ingredientAmount} ${unit} ${name}`);
+        };
+        ingredient(1.5, "dl", "vetemjöl");
+        ingredient(0.25, "tsk", "salt");
+        ingredient(3, "dl", "mjölk");
+        ingredient(1.5, "knäckta", "ägg");
+        ingredient(1.25, "msk", "matfett");
+      };
+      let amount = prompt("Hur många portioner vill du göra? ");
+      pancakes(amount);
+      console.log("Blanda alla ingredienser och stek på medelvärme");
       break;
 
-    case "Mattias recept 2":
+    case "2":
+      console.log("Mattias recept:Du har valt recept 2");
       break;
 
-    case "Robins recept 3":
+    case "3":
+      console.log("Robin recept:Du har valt recept 2");
       break;
 
-    case "Dennis recept":
+    case "4":
       dennisRecept();
       break;
 
-    case "Eriks recept 5":
+    case "5":
+      console.log("Eriks recept:Du har valt recept 2");
       break;
 
-    case "Linus recept 6":
+    case "6":
+      console.log("Linus recept:Du har valt recept 2");
       break;
 
     case "exit":
+      console.log("Hejdå!");
       kokbok = false;
       break;
 
