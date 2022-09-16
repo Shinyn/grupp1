@@ -41,7 +41,20 @@ while (kokbok === true) {
       break;
 
     case "5":
-      console.log("Eriks recept:Du har valt recept 2");
+      console.log("\nEriks recept: Kladdkaka\n");
+      console.log("Ingredienser:");
+      console.log("100 g smör")
+      console.log("2,5 dl strösocker")
+      console.log("2 ägg")
+      console.log("1,5 dl vetemjöl")
+      console.log("3 msk kakao")
+      console.log("1 tsk vaniljsocker")
+      console.log("florsocker, till garnering\n")
+      console.log("Sätt ugnen på 175°. Smält smöret och låt det svalna.\nRör samman ägg och socker." + 
+      "\nBlanda vetemjöl, kakao och vaniljsocker och rör ner blandningen i äggsmeten.\nRör till sist ner det smälta smöret.")
+      console.log("Grädda kakan i ca 25 minuter.\nDen ska bli låg och ha en hård yta men vara kladdig i mitten.")
+      console.log("Låt kakan svalna, pudra över florsocker och skär den i snibbar.\n")
+      console.log("Servera med vispad grädde\n")
       break;
 
     case "6":
