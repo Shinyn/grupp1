@@ -54,6 +54,7 @@ while (kokbok === true) {
       break;
 
     default:
+      console.log("Du måste välja ett recept mellan 1-6");
       break;
   }
 }
