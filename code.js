@@ -78,7 +78,20 @@ while (kokbok === true) {
       break;
 
     case "6":
-      console.log("Linus recept:Du har valt recept 2");
+      console.log(`\Linus recept: Chokladbollar:\n
+        Ingredienser:
+        100 g smör
+        1 dl strösocker
+        1 msk vaniljsocker
+        3 msk kakao
+        3 dl havregryn
+        3 msk kallt starkt kaffe
+        Pärlsocker att rulla chokladbollarna i\n
+        Tillagning:
+        Smält smöret och låt puttra 1 minut
+        Blanda socker, vaniljsocker, kakao, havregryn, kaffe och smör med en elvisp.
+        Ställ in i kylskåp så att smeten stelnar lite, ca 40 minuter.
+        Forma bollarna och rulla i pärlsockret.\n`);
       break;
 
     case "e":
