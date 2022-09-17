@@ -7,7 +7,7 @@ let kokbok = true;
 while (kokbok === true) {
   switch (
     prompt(
-      "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'exit' för att gå ur programmet: "
+      "Välj ett recept: 1, 2, 3, 4, 5, 6. Skriv 'e' för att gå ur programmet: "
     )
   ) {
     case "1":
@@ -29,7 +29,21 @@ while (kokbok === true) {
       break;
 
     case "2":
-      console.log("Mattias recept:Du har valt recept 2");
+      console.log(`\nMattias recept: Marinerade kikärter med citron, chili och persilja:\n
+        Du behöver:\n
+        1 näve persilja
+        2 paket förkokta kikärer
+        2 st medelstora färska röda chilipeppar\n
+        Dressing:\n
+        2 msk citronsaft
+        5 msk rapsolja
+        1 struken tsk salt
+        1 struken tsk svartpeppar\n
+        Tillagning:\n
+        Skölj av ärtorna och låt dem rinna av.
+        Blanda ihop dressingen i en skål.
+        Grovhacka persiljan och finhacka chilipepparn och häll i skålen.
+        Häll i kikärtorna, blanda allt och ät.\n`);
       break;
 
     case "3":
@@ -43,25 +57,31 @@ while (kokbok === true) {
     case "5":
       console.log("\nEriks recept: Kladdkaka\n");
       console.log("Ingredienser:");
-      console.log("100 g smör")
-      console.log("2,5 dl strösocker")
-      console.log("2 ägg")
-      console.log("1,5 dl vetemjöl")
-      console.log("3 msk kakao")
-      console.log("1 tsk vaniljsocker")
-      console.log("florsocker, till garnering\n")
-      console.log("Sätt ugnen på 175°. Smält smöret och låt det svalna.\nRör samman ägg och socker." + 
-      "\nBlanda vetemjöl, kakao och vaniljsocker och rör ner blandningen i äggsmeten.\nRör till sist ner det smälta smöret.")
-      console.log("Grädda kakan i ca 25 minuter.\nDen ska bli låg och ha en hård yta men vara kladdig i mitten.")
-      console.log("Låt kakan svalna, pudra över florsocker och skär den i snibbar.\n")
-      console.log("Servera med vispad grädde\n")
+      console.log("100 g smör");
+      console.log("2,5 dl strösocker");
+      console.log("2 ägg");
+      console.log("1,5 dl vetemjöl");
+      console.log("3 msk kakao");
+      console.log("1 tsk vaniljsocker");
+      console.log("florsocker, till garnering\n");
+      console.log(
+        "Sätt ugnen på 175°. Smält smöret och låt det svalna.\nRör samman ägg och socker." +
+          "\nBlanda vetemjöl, kakao och vaniljsocker och rör ner blandningen i äggsmeten.\nRör till sist ner det smälta smöret."
+      );
+      console.log(
+        "Grädda kakan i ca 25 minuter.\nDen ska bli låg och ha en hård yta men vara kladdig i mitten."
+      );
+      console.log(
+        "Låt kakan svalna, pudra över florsocker och skär den i snibbar.\n"
+      );
+      console.log("Servera med vispad grädde\n");
       break;
 
     case "6":
       console.log("Linus recept:Du har valt recept 2");
       break;
 
-    case "exit":
+    case "e":
       console.log("Hejdå!");
       kokbok = false;
       break;
