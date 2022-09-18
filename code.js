@@ -47,7 +47,22 @@ while (kokbok === true) {
       break;
 
     case "3":
-      console.log("Robin recept:Du har valt recept 2");
+      console.log("Robins Cocktail recept: Clover Club");
+      const cloverclub = function (factor) {
+        const ingredient = function (quantity, unit, name) {
+          let ingredientAmount = quantity * factor;
+          console.log(`${ingredientAmount} ${unit} ${name}`);
+        };
+        ingredient(3, "cl", "London dry gin");
+        ingredient(2, "cl", "Dry vermuth");
+        ingredient(2, "berrie", "Raspberry");
+        ingredient(3, "cl", "Lemon juice");
+        ingredient(2, "cl", "Syrup");
+        ingredient(1, "egg", "eggwhite");
+      };
+      let quantity = prompt("Hur många drinkar vill du göra? ");
+      cloverclub(quantity);
+      console.log("Blanda ner ingridienserna i shakern och skaka. Häll upp");
       break;
 
     case "4":
