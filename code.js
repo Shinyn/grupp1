@@ -63,7 +63,7 @@ while (kokbok === true) {
       let quantity = prompt("Hur många drinkar vill du göra? ");
       cloverclub(quantity);
       console.log("Blanda ner ingridienserna i shakern och skaka. Häll upp");
-      console.log("TEST")
+  
       break;
 
     case "4":
